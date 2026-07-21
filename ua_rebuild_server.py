@@ -46,7 +46,7 @@ from ua_rebuild.simulator import SimulatorConfig, SovSimulator
 
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.WARNING,
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 log = logging.getLogger("ua_rebuild_server")
@@ -263,6 +263,7 @@ async def _run(args: argparse.Namespace) -> int:
 
         # Ready file — only after everything that could fail is done.
         devices_count = len(runtime_registry.devices) if runtime_registry else 0
+        print("启动成功", flush=True)
         write_ready_file(args.ready_file, {
             "status": "ready",
             "pid": os.getpid(),

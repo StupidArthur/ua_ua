@@ -47,20 +47,21 @@ class ReferenceBuilder:
 
     async def build(self) -> list:
         results = []
+        skipped = 0
+        failed = 0
         for ref in self.plan.references_to_add:
             src = _decode_node_id(ref.source_node_id)
             tgt = _decode_node_id(ref.target_node_id)
             rt_id = ua.NodeId(ref.reference_type_id, 0)
 
             if not await self.adapter.node_exists(src):
-                log.error("[REF] skip missing source %s -> %s", src, tgt)
+                skipped += 1
                 continue
             if not await self.adapter.node_exists(tgt):
-                log.error("[REF] skip missing target %s -> %s", src, tgt)
+                skipped += 1
                 continue
             if await self._reference_exists(src, rt_id, ref.is_forward, tgt):
-                log.info("[REF] SKIP existing %s --[%s]--> %s",
-                         src, ref.reference_type_browse_name, tgt)
+                skipped += 1
                 continue
 
             item = ua.AddReferencesItem()
@@ -74,23 +75,25 @@ class ReferenceBuilder:
                 [item], _admin_user())
             result = result_list[0] if result_list else None
             if result is not None and result.is_good():
-                log.info("[REF] ADD %s --[%s:%s]--> %s",
-                         src, ref.reference_type_browse_name,
-                         "F" if ref.is_forward else "R", tgt)
                 results.append({"source": ref.source_node_id,
                                  "type": ref.reference_type_browse_name,
                                  "is_forward": ref.is_forward,
                                  "target": ref.target_node_id,
                                  "status": "Good"})
             else:
-                log.error("[REF] FAIL %s --[%s]--> %s status=%s",
-                          src, ref.reference_type_browse_name, tgt,
-                          result)
+                failed += 1
                 results.append({"source": ref.source_node_id,
                                  "type": ref.reference_type_browse_name,
                                  "is_forward": ref.is_forward,
                                  "target": ref.target_node_id,
                                  "status": str(result)})
+
+        if skipped or failed:
+            log.warning(
+                "[REF] summary added=%d skipped=%d failed=%d "
+                "(details suppressed)",
+                len(results), skipped, failed,
+            )
         return results
 
     async def _reference_exists(self, source: NodeId, ref_type: NodeId,

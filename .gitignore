@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+build_plan_*.json
+verification_report.json
+verification_report.md

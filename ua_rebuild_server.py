@@ -58,8 +58,11 @@ PROFILES: dict[str, dict[str, str]] = {
 
 async def _run(args: argparse.Namespace) -> int:
     from ua_rebuild.build_planner import plan_for_scope
-    from ua_rebuild.model_validator import validate_export
+    from ua_rebuild.model_validator import validate_export, validate_plan
     from ua_rebuild.model_loader import load_export
+    from ua_rebuild.type_builder import TypeBuilder
+    from ua_rebuild.full_instance_builder import FullInstanceBuilder
+    from ua_rebuild.reference_builder import ReferenceBuilder
 
     if args.dry_run:
         # Phase 0 style: validate + plan, then exit.
@@ -73,11 +76,12 @@ async def _run(args: argparse.Namespace) -> int:
                 log.error("[VALIDATE] %s", f)
             return 1
         plan = plan_for_scope(args.model, args.scope)
-        log.info("[PLAN] reused=%d custom=%d decls=%d instances=%d",
+        log.info("[PLAN] reused=%d custom=%d decls=%d instances=%d refs=%d",
                  len(plan.reused_standard_nodes),
                  len(plan.custom_type_nodes),
                  len(plan.type_declaration_nodes),
-                 len(plan.instance_nodes))
+                 len(plan.instance_nodes),
+                 len(plan.references_to_add))
         log.info("[PHASE 0] dry run complete; server start deferred to Phase 1+")
         return 0
 
@@ -99,19 +103,62 @@ async def _run(args: argparse.Namespace) -> int:
         log.error("[NAMESPACE] mismatch; aborting")
         return 1
 
-    # Step 5: build the Phase 1 smoke-test nodes.
-    if args.scope != "namespace-smoke":
-        log.error("[SCOPE] Phase 1 only implements namespace-smoke, got %s",
-                  args.scope)
+    # Step 5: build the requested scope.
+    model = load_export(args.model)
+    plan = plan_for_scope(args.model, args.scope)
+    plan_res = validate_plan(plan, model)
+    if not plan_res.fatal_or_ok():
+        log.error("[PLAN] validation failed:")
+        for f in plan_res.fatal:
+            log.error("  %s", f)
+        return 1
+
+    all_records = []
+
+    # Phase 1: hard-coded smoke scope.
+    if args.scope == "namespace-smoke":
+        builder = InstanceBuilder(adapter, args.model)
+        records = await builder.build()
+        all_records.extend(records)
+
+    # Phase 2+: full BuildPlan-driven build driven by topo order.
+    elif args.scope in ("sov1", "all-sov", "full-custom"):
+        type_builder = TypeBuilder(adapter, plan, model)
+        # Build specs by node_creation_order to honour parent-before-child
+        # for both types and declarations.
+        spec_by_text: dict[str, object] = {}
+        for s in plan.custom_type_nodes + plan.type_declaration_nodes + plan.instance_nodes:
+            spec_by_text[s.node_id.text] = s
+
+        for nid_text in plan.node_creation_order:
+            spec = spec_by_text.get(nid_text)
+            if spec is None:
+                continue
+            if getattr(spec, "is_type_declaration", False):
+                records = await type_builder.build_declaration(spec)
+                all_records.extend(records)
+            elif spec.node_class in ("ObjectType", "VariableType"):
+                records = await type_builder.build_type(spec)
+                all_records.extend(records)
+            elif spec.node_class in ("Object", "Variable", "Method"):
+                instance_builder = FullInstanceBuilder(adapter, plan)
+                records = await instance_builder.build_one(spec)
+                all_records.extend(records)
+
+        # Modelling rules and references come last.
+        await type_builder.build_modelling_rules()
+        ref_builder = ReferenceBuilder(adapter, plan)
+        ref_results = await ref_builder.build()
+    else:
+        log.error("[SCOPE] unsupported scope %s", args.scope)
         return 2
-    builder = InstanceBuilder(adapter, args.model)
-    records = await builder.build()
-    fail = sum(1 for r in records if r.status_code.is_bad())
+
+    fail = sum(1 for r in all_records if r.status_code.is_bad())
     log.info("[BUILD] created=%d failed=%d",
-             len(records) - fail, fail)
+             len(all_records) - fail, fail)
 
     # SelfCheck
-    self_check = SelfCheck(adapter, records)
+    self_check = SelfCheck(adapter, all_records)
     sc_summary = await self_check.run()
 
     # Endpoint
@@ -126,14 +173,15 @@ async def _run(args: argparse.Namespace) -> int:
             "endpoint": endpoint,
             "namespace_array": actual_ns,
             "build": {
-                "created": len(records) - fail,
+                "scope": args.scope,
+                "created": len(all_records) - fail,
                 "failed": fail,
                 "records": [
                     {"requested": str(r.requested_node_id),
                      "added": str(r.added_node_id),
                      "status": r.status_code.name,
                      "node_class": r.node_class.name}
-                    for r in records
+                    for r in all_records
                 ],
             },
             "self_check": {
@@ -148,7 +196,7 @@ async def _run(args: argparse.Namespace) -> int:
 
     async with server:
         log.info("[READY] %s", endpoint)
-        log.info("[READY] ns=0/1/2/4 target nodes ready for UAExpert")
+        log.info("[READY] scope=%s ready for UAExpert", args.scope)
         try:
             while True:
                 await asyncio.sleep(1)

@@ -1,0 +1,6103 @@
+{
+  "endpoint": "opc.tcp://127.0.0.1:9851/ua-rebuild/",
+  "namespace_array": [
+    "http://opcfoundation.org/UA/",
+    "http://SUPCON.UAServer.Product",
+    "http://supcon.com/UA",
+    "http://opcfoundation.org/UA/Dictionary/IRDI",
+    "http://opcfoundation.org/UA/DI/",
+    "http://opcfoundation.org/UA/PADIM/",
+    "http://www.OPCFoundation.org/UA/2013/01/ISA95"
+  ],
+  "build": {
+    "scope": "sov1",
+    "created": 97,
+    "failed": 0,
+    "records": [
+      {
+        "requested": "NodeId(Identifier=1005, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1005, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=1006, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1006, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=6388, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6388, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=1001, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1001, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=1008, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1008, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=2013, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=2013, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "VariableType"
+      },
+      {
+        "requested": "NodeId(Identifier=1021, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1021, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=1004, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1004, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=6246, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6246, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "VariableType"
+      },
+      {
+        "requested": "NodeId(Identifier=6027, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6027, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=6391, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6391, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=6534, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6534, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=6390, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6390, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=6392, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6392, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15890, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15890, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=6014, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6014, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=15063, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15063, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=6567, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6567, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5002, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5002, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5003, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5003, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=6161, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6161, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=1035, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1035, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=6346, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6346, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1024, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1024, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5004, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5004, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=6026, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6026, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=6243, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6243, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_7765a8f78a9266d7a83581ba1b39176a', NamespaceIndex=2, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_7765a8f78a9266d7a83581ba1b39176a', NamespaceIndex=2, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=15091, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15091, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15093, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15093, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1009, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1009, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=15086, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15086, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15099, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15099, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15088, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15088, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1031, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1031, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=15096, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15096, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15090, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15090, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15097, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15097, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15089, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15089, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15094, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15094, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15098, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15098, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15087, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15087, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15095, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15095, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=15092, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=15092, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1034, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1034, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=1013, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1013, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1012, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1012, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1016, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1016, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1010, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1010, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1011, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1011, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1017, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1017, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1018, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1018, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=1025, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1025, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=1019, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1019, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1014, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1014, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1015, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1015, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1032, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1032, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1033, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1033, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1029, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1029, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=1020, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1020, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=5055, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5055, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5086, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5086, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5056, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5056, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5049, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5049, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5034, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5034, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=1110, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=1110, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "ObjectType"
+      },
+      {
+        "requested": "NodeId(Identifier=6153, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=6153, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=5048, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5048, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=7232, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7232, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=7229, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7229, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=5051, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5051, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5113, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5113, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5114, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5114, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5068, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5068, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5074, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5074, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=7230, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7230, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=7300, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7300, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=7233, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7233, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch1', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch1', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=7234, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7234, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=7236, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7236, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=7238, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7238, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier=5208, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5208, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=5209, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=5209, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier=7239, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": "NodeId(Identifier=7239, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_10384fe20b16c81537f93e40558636e6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_10384fe20b16c81537f93e40558636e6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_318b26d74fcca15eeb08a56d2f1b6f3a', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_318b26d74fcca15eeb08a56d2f1b6f3a', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_0f82c9b911a44bc3a4185b1fe83be125', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_0f82c9b911a44bc3a4185b1fe83be125', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier='P_cadfd5973419d77015b9410f9ceda34e', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_cadfd5973419d77015b9410f9ceda34e', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Object"
+      },
+      {
+        "requested": "NodeId(Identifier='P_cdc75745a8441147e448e8f845243c64', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_cdc75745a8441147e448e8f845243c64', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_c4e95c9b3819dd8bb1f24ca02b5127b6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_c4e95c9b3819dd8bb1f24ca02b5127b6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_fb349055a732ddf6511d1367e07bf492', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_fb349055a732ddf6511d1367e07bf492', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_0fd57de4b78346a354e7f8725d4cd95f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_0fd57de4b78346a354e7f8725d4cd95f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_79d0616e3e1a8613be1456bd90f5e544', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_79d0616e3e1a8613be1456bd90f5e544', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_3c9fcf915366945544cd1b4032d0afe0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_3c9fcf915366945544cd1b4032d0afe0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_d96e61438d6080321565c5718839603d', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_d96e61438d6080321565c5718839603d', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      },
+      {
+        "requested": "NodeId(Identifier='P_cb0a950cc7e57148a93bd1d6027a720c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": "NodeId(Identifier='P_cb0a950cc7e57148a93bd1d6027a720c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "status": "Good",
+        "node_class": "Variable"
+      }
+    ]
+  },
+  "self_check": {
+    "good": 1155,
+    "bad": 0,
+    "nodes": [
+      {
+        "node_id": "NodeId(Identifier=1005, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1006, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6388, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1001, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1008, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=2013, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "VariableType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1021, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1004, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6246, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "VariableType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6027, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6391, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6534, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6390, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6392, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15890, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6014, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15063, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6567, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5002, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5003, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6161, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1035, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6346, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1024, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5004, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6026, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6243, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_7765a8f78a9266d7a83581ba1b39176a', NamespaceIndex=2, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15091, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15093, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1009, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15086, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15099, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15088, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1031, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15096, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15090, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15097, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15089, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15094, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15098, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15087, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15095, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=15092, NamespaceIndex=4, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1034, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1013, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1012, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1016, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1010, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1011, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1017, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1018, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1025, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1019, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1014, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1015, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1032, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1033, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1029, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1020, NamespaceIndex=5, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5055, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5086, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5056, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5049, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5034, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=1110, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "ObjectType",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Exception",
+            "message": "The attribute is not supported for the specified Node.(BadAttributeIdInvalid)"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=6153, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5048, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7232, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7229, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5051, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5113, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5114, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5068, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5074, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7230, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7300, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7233, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch1', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7234, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7236, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7238, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5208, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=5209, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier=7239, NamespaceIndex=2, NodeIdType=<NodeIdType.FourByte: 1>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_10384fe20b16c81537f93e40558636e6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_318b26d74fcca15eeb08a56d2f1b6f3a', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_0f82c9b911a44bc3a4185b1fe83be125', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_cadfd5973419d77015b9410f9ceda34e', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Object",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "EventNotifier",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_cdc75745a8441147e448e8f845243c64', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_c4e95c9b3819dd8bb1f24ca02b5127b6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_fb349055a732ddf6511d1367e07bf492', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_0fd57de4b78346a354e7f8725d4cd95f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_79d0616e3e1a8613be1456bd90f5e544', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_3c9fcf915366945544cd1b4032d0afe0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_d96e61438d6080321565c5718839603d', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      },
+      {
+        "node_id": "NodeId(Identifier='P_cb0a950cc7e57148a93bd1d6027a720c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+        "added": true,
+        "node_class": "Variable",
+        "status": "Good",
+        "attributes": [
+          {
+            "attribute": "BrowseName",
+            "status": "Good"
+          },
+          {
+            "attribute": "DisplayName",
+            "status": "Good"
+          },
+          {
+            "attribute": "Description",
+            "status": "Good"
+          },
+          {
+            "attribute": "WriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserWriteMask",
+            "status": "Good"
+          },
+          {
+            "attribute": "Value",
+            "status": "Good"
+          },
+          {
+            "attribute": "DataType",
+            "status": "Good"
+          },
+          {
+            "attribute": "ValueRank",
+            "status": "Good"
+          },
+          {
+            "attribute": "ArrayDimensions",
+            "status": "Good"
+          },
+          {
+            "attribute": "AccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "UserAccessLevel",
+            "status": "Good"
+          },
+          {
+            "attribute": "MinimumSamplingInterval",
+            "status": "Good"
+          },
+          {
+            "attribute": "Historizing",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeId",
+            "status": "Good"
+          },
+          {
+            "attribute": "NodeClass",
+            "status": "Good"
+          }
+        ]
+      }
+    ]
+  }
+}

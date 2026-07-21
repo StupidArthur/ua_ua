@@ -1,0 +1,10 @@
+{
+    "url": "opc.tcp://10.10.58.117:18639",
+    "browse_roots": ["ns=2;s=P_7765a8f78a9266d7a83581ba1b39176a"],
+    "browse_path": null,
+    "depth": 10,
+    "output": "snapshot.json",
+    "timeout": 30.0,
+    "user": null,
+    "password": null
+}

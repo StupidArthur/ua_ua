@@ -1,0 +1,328 @@
+{
+  "server_url": "opc.tcp://10.30.70.77:12345",
+  "interval_seconds": 5.0,
+  "started_at": "2026-07-20T07:49:57.173501+00:00",
+  "last_updated": "2026-07-20T07:52:12.011533+00:00",
+  "devices": {
+    "SOV1": {
+      "device": "SOV1",
+      "node_count": 10,
+      "change_count": 27,
+      "nodes": [
+        {
+          "path": "SOV1/DeviceClass",
+          "browse_name": "DeviceClass",
+          "data_type": "String"
+        },
+        {
+          "path": "SOV1/AssetId",
+          "browse_name": "AssetId",
+          "data_type": "String"
+        },
+        {
+          "path": "SOV1/Configuration/SnapshotPeriod",
+          "browse_name": "SnapshotPeriod",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Configuration/CurrentType",
+          "browse_name": "CurrentType",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/FaultState",
+          "browse_name": "FaultState",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/TypeMismatch",
+          "browse_name": "TypeMismatch",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "data_type": "Float"
+        },
+        {
+          "path": "SOV1/Runtime/EURange",
+          "browse_name": "EURange",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "data_type": "ByteString"
+        },
+        {
+          "path": "SOV1/Runtime/OnlineState",
+          "browse_name": "OnlineState",
+          "data_type": "Boolean"
+        }
+      ],
+      "changes": [
+        {
+          "timestamp": "2026-07-20T07:50:05.922240+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.3000030517578,
+          "new_value": 226.0
+        },
+        {
+          "timestamp": "2026-07-20T07:50:02.891649+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAB4AXwCUALMAxgDRANcA2gDcANwA1wDIAK0AqQC3AMUA0ADYAN4A4wDlAOcA6QDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK4AwADLANEA1ADWANYA0QDCAKgApACyAL8AygDSANgA3QDeAOAA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:50:10.949107+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.0,
+          "new_value": 224.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:50:15.979559+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.89999389648438,
+          "new_value": 224.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:50:21.017335+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.8000030517578,
+          "new_value": 223.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:50:26.049059+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.8000030517578,
+          "new_value": 223.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:50:31.048729+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.60000610351562,
+          "new_value": 222.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:50:36.040259+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.6999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:50:46.114168+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 231.5
+        },
+        {
+          "timestamp": "2026-07-20T07:50:51.172159+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.5,
+          "new_value": 230.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:50:56.197841+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.1999969482422,
+          "new_value": 229.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:50:52.171882+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK4AwADLANEA1ADWANYA0QDCAKgApACyAL8AygDSANgA3QDeAOAA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCSALAAwwDOANQA1wDZANkA1ADFAKsApwC0AMIAzQDVANsA4ADiAOQA5gDoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:51:01.224033+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.6999969482422,
+          "new_value": 228.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:51:06.285202+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.39999389648438,
+          "new_value": 227.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:51:11.355861+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.39999389648438,
+          "new_value": 225.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:51:16.414463+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.8000030517578,
+          "new_value": 225.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:51:21.455130+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.1999969482422,
+          "new_value": 224.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:51:26.485389+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.39999389648438,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:51:36.581192+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 229.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:51:41.630645+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.1999969482422,
+          "new_value": 228.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:51:46.681111+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.3000030517578,
+          "new_value": 227.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:51:42.645895+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCSALAAwwDOANQA1wDZANkA1ADFAKsApwC0AMIAzQDVANsA4ADiAOQA5gDoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA6ADoAOgA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK4AwQDMANIA1QDXANcA0gDDAKkApQCyAMAAywDTANkA3QDfAOEA4wDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:51:51.734904+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.60000610351562,
+          "new_value": 227.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:51:56.773641+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.10000610351562,
+          "new_value": 226.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:52:01.829952+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.1999969482422,
+          "new_value": 224.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:52:06.884947+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.8000030517578,
+          "new_value": 223.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:52:11.929872+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.6999969482422,
+          "new_value": 223.0
+        }
+      ]
+    }
+  }
+}

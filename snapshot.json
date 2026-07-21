@@ -1,0 +1,1496 @@
+{
+  "server_url": "opc.tcp://10.10.58.117:18639",
+  "collected_at": "2026-07-20T03:38:08.826565+00:00",
+  "nodes": [
+    {
+      "node_id": "NodeId(Identifier='P_7765a8f78a9266d7a83581ba1b39176a', NamespaceIndex=2, NodeIdType=<NodeIdType.String: 3>)",
+      "browse_name": "DeviceSetView",
+      "display_name": "DeviceSetView",
+      "node_class": "Object",
+      "data_type": null,
+      "value": null,
+      "timestamp": null,
+      "children": [
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch1', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV1",
+          "display_name": "SOV1",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_10384fe20b16c81537f93e40558636e6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.285000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_318b26d74fcca15eeb08a56d2f1b6f3a', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch1",
+              "timestamp": "2026-07-20T03:35:53.288000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_0f82c9b911a44bc3a4185b1fe83be125', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_c4e95c9b3819dd8bb1f24ca02b5127b6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 3,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "2880ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.295000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_cdc75745a8441147e448e8f845243c64', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.298000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_cadfd5973419d77015b9410f9ceda34e', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_79d0616e3e1a8613be1456bd90f5e544', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.305000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_cb0a950cc7e57148a93bd1d6027a720c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.308000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_fb349055a732ddf6511d1367e07bf492', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 226.0,
+                  "timestamp": "2026-07-20T03:35:53.316000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_d96e61438d6080321565c5718839603d', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.319000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_3c9fcf915366945544cd1b4032d0afe0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": {
+                    "__type__": "ByteString",
+                    "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAAQAJgBsAJ4AvADOANkA3gDfAN4A1gC/AKsAswDDANAA2wDjAOgA7ADuAPAA8QDyAPMA8wDzAPMA8wDzAPQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA8wDzAPQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA9AD0APMA8wDzAPMA9ADzAPQA9ADzAPQA8wD0APQA9AD0APQA9AD0APQA9AD0APQA8wDzAPQA9AD0APMA8wD0APQA9AD0APQA9AD0APQA9AD0APMA8wD0APMA8wDzAPQA9AD0APMA8wDzAPQA9AD0APQA9AD0APQA9ADzAPMA8wDzAPMA8wDzAPQA9AD0APQA9AD0APQA9AD0APQA9AD0APQA8wDzAPMA8wDzAPMA8wDzAPMA8wD0APQA9AD0APQA8wDzAPQA9ADzAPQA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPQA9AD0APQA9ADzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA"
+                  },
+                  "timestamp": "2026-07-20T03:35:53.323000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_0fd57de4b78346a354e7f8725d4cd95f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.326000+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV6",
+          "display_name": "SOV6",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_9cc79e53a8f708b517461d71efea877e', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch6",
+              "timestamp": "2026-07-20T03:35:53.334000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_5028974dfbba4c963e5ce231c9b830a0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.337000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_1b1bd8de019344d2bc887a762d3a9e72', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_b6b309f15ba1f40790d563eae089894e', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "360ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.343000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_eb3514fbb09f9a29745846f5bff6b4e2', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.346000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_59dad4e4a142bb938923fc9da20125f6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_ef5e9e9fcfb98a8905a647a3a920e633', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.355000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_ced29318494832827ea70444ae11f3db', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.358000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_a8df71d63ea6afe4c8c455640a2d26ae', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 227.0,
+                  "timestamp": "2026-07-20T03:35:53.362000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_1175f5b7f7990e21f6ed1c27bd5e9192', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.367000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_baa5c6aae99ec39d87c901a488cf3805', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": {
+                    "__type__": "ByteString",
+                    "b64": "AgACAAIAAgACAAIAAgACAAIAAgACAAUAKgBvAJ8AuwDNANcA3ADeAN0A1AC9AKoAswDDANAA2gDiAOcA6gDtAO8A8ADwAPEA8QDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDzAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA"
+                  },
+                  "timestamp": "2026-07-20T03:35:53.372000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_75d36fb750e11e393497a2c7200c78d0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.375000+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch7', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV7",
+          "display_name": "SOV7",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_d6e8b80e832297c58597599842b65b7c', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch7",
+              "timestamp": "2026-07-20T03:35:53.383000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_fc43f4ae11cb496fbc03e8be71265786', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.387000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_2c621643996d062c5585ff9cfa50e55f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_d803d26cc24a1d33340b0054b4737653', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.394000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_f5453190c79e7a4a8000bfa7dff95582', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.398000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_02dc0cca86cd00b5b830db7616757a10', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": null,
+                  "timestamp": "2026-07-20T03:35:53.404000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_519db2a64cb7a0f0b9d703da51de5cbb', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 74.0,
+                  "timestamp": "2026-07-20T03:35:53.410000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_524770cf890db78b319175318ea11ad8', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.413000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_d0dd9e5cf1a67686ffaf51cb013edd3f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.421000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_fabc48adb6d0de562b88e1f5a0182df3', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_d0e8a17cb2261468891112112d97e0a0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.427000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_9388e6a7ad75f1fcf5de12850e765a4c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 2,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "1440ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.431000+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch2', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV2",
+          "display_name": "SOV2",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_16a829974831930e47043de7b80d8457', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch2",
+              "timestamp": "2026-07-20T03:35:53.437000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_4938367246db2047b9e18773dcd8a6da', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.440000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_3c15dcca6d48d74363386cad305684bd', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_fd5259a831abe0a5ba9a188f6a9e3f14', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.446000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_b6290506efddb6aeb7eb2a4250f5456f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 1,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "720ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.449000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_6e216f654e8df0109fd559133e230fe4', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_0176568ccf8d6094d634200d664aad42', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": null,
+                  "timestamp": "2026-07-20T03:35:53.456000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_95f9d94fd5622e5a0aefb9d14415721d', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.460000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_cb976c6a706152499dd2c4309acd95a2', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.464000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_fd55af1df94de2810bb75b396833f6d1', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 0.0,
+                  "timestamp": "2026-07-20T03:35:53.467000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_df8e9f31521e4a425d4cfc069e9a167e', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.471000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_cf562a5a86461acfaf8b43700c224351', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.474000+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch8', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV8",
+          "display_name": "SOV8",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_3c26385c96e52a57d6ac55cde11a2cb7', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.484000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_f7effec354409e6f575b020417fabef8', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch8",
+              "timestamp": "2026-07-20T03:35:53.487000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_8cc2abe6bee8c358f6c3cbcf2193b557', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_3bb8aeba5dce893483972314cc4ad2f0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 76.0,
+                  "timestamp": "2026-07-20T03:35:53.493000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_65831eeacd89eb84df62aad1c433b101', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.498000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_f317c48a74664fe450f0eacf2ca4770c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": null,
+                  "timestamp": "2026-07-20T03:35:53.502000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_accd99608ad98f1ea7e076917003ab12', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.505000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_60766f4218185993005470d12a5c6b5a', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.508000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_24a08d31e438ed63fedb5f46538c03d6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.512000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_49eb2e53ae2299e5ee34333cfa013512', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_d812a687c56f5f6ebd9b81b6e8f6786a', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.518000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_71fb79d8831dd100d81216367f119a0a', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 2,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "1440ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.522000+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch4', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV4",
+          "display_name": "SOV4",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_dc67c5ec23bff00b663d28bcbba78716', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch4",
+              "timestamp": "2026-07-20T03:35:53.530000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_314066c01deddc24e92182d2ccb589a4', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.534000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_009cdfb397e90ffb1c7d9c3e16b3c57c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_567b992d8552e4281c39d404cde055df', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.541000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_698e6817db426c01b58e1318706f62ac', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "360ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.544000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_a242b43221b57107bc78119f8fdf0a81', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_9464963d95cf68daf788be3817f7f471', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 225.0,
+                  "timestamp": "2026-07-20T03:35:53.551000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_49e341430055fbf66a5826ba64db60e3', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.555000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_56e7ff2f301c44bdbfab109e03aff22d', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.558000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_7bced210db53cae0cdebd4492ae525c6', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": {
+                    "__type__": "ByteString",
+                    "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwARACEAKwAxADSANoA3gDeANsAzgCyAKsAuQDIANQA3QDkAOkA7ADuAPAA8QDxAPIA8gDyAPIA8gDyAPIA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDyAPIA8wDzAPMA8wDzAPIA8gDzAPMA8wDyAPIA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPIA8wDyAPIA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8gDyAPIA8wDzAPMA8wDyAPIA8gDzAPMA8wDyAPIA8wDzAPMA8wDzAPIA8gDyAPMA8wDyAPIA8wDzAPIA8wDzAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPMA8wDzAPMA8gDyAPMA8gDyAPIA8gDyAPIA8gDzAPMA8gDyAPIA8gDyAPIA8gDzAPMA8wDzAPMA8wDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8wDzAPIA8gDyAPIA8wDyAPMA8wDyAPIA8gDyAPIA8gDyAPIA8gDyAPMA8wDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA8gDyAPIA"
+                  },
+                  "timestamp": "2026-07-20T03:35:53.562000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_c8a9a7a8a89242cda928ebeb03b84fb8', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.565000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_6373d648077997fd3c88bf73608ddd4a', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.569000+00:00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch3', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV3",
+          "display_name": "SOV3",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_28dde1842eb938237d79a59b4381bde1', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch3",
+              "timestamp": "2026-07-20T03:35:53.576000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_9794aadb8074e2d77783f7086b15982c', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.579000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_48a91d6d54bd31590b96e8b98d8e75a3', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_264c303711ef2d01f43489e1afdb19a2', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 236.0,
+                  "timestamp": "2026-07-20T03:35:53.586000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_07495a943ab99e742a21e2b7654ee962', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.589000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_2f21f8471209f4389f215bf3cacc4e50', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.593000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_29495a285f5b162a4a36d009e8a129c9', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.597000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_2e226206224e7a2f0f0edc155b8c30ef', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.600000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_72f0ba7933fd59393cba4ed167da76a2', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": {
+                    "__type__": "ByteString",
+                    "b64": "BgAGAAYABgAGAAYABgAGAAYABgAGAAoALwBzAKQAwADSANwA4QDjAOIA2QDCAK8AuADHANUA3wDmAOwA7wDyAPMA9AD1APYA9gD2APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9gD2APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9gD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APYA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9gD2APYA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APYA9gD2APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD2APYA9gD2APYA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9gD2APYA9wD3APYA9wD3APcA9wD3APcA9wD3APcA9wD3APcA9wD2APYA9gD2APYA9gD2APYA9wD3APcA9wD3APcA9wD3APcA9wD2APYA9gD2APYA9gD2APYA9gD2APYA9gD3APcA9wD3APcA9wD3APcA9gD2APYA9gD2APYA9gD3APcA9wD2APYA9gD3APcA9wD2APYA9wD3APYA9gD2APYA9gD2APYA9gD2APYA9gD2APYA9wD3APcA9wD3APcA9gD2APYA9gD2APYA9gD2APYA9gD2APYA9gD2APcA9wD3APYA9gD2APYA9gD2APYA9gD2APYA9gD2APYA9gD2APYA9gD2APcA9wD2APYA9gD2APYA9gD2APYA9gD2APYA9gD2APYA"
+                  },
+                  "timestamp": "2026-07-20T03:35:53.604000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_5e4c31e145c0f80c8cef50263f86edad', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_995d145ac10eb739033fb5d3b7a74ec9', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.610000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_ee2e9b41ea79c938b572ef063d7a2327', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 1,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "720ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.614000+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "NodeId(Identifier='7c8af738ba72d0e9226c57c70ab0310d_ch5', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+          "browse_name": "SOV5",
+          "display_name": "SOV5",
+          "node_class": "Object",
+          "data_type": null,
+          "value": null,
+          "timestamp": null,
+          "children": [
+            {
+              "node_id": "NodeId(Identifier='P_b1941dec912588efe46b20883a6fe2be', NamespaceIndex=4, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "AssetId",
+              "display_name": "DeviceId",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "7c8af738ba72d0e9226c57c70ab0310d_ch5",
+              "timestamp": "2026-07-20T03:35:53.620000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_c87eca1ac0a1896c9b4b35eb8184973e', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "DeviceClass",
+              "display_name": "DeviceClass",
+              "node_class": "Variable",
+              "data_type": "String",
+              "value": "AirTac4V210-08",
+              "timestamp": "2026-07-20T03:35:53.624000+00:00"
+            },
+            {
+              "node_id": "NodeId(Identifier='P_421b6df61324737922a15bf41283038f', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Configuration",
+              "display_name": "Configuration",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_371b2ebfa6af199c2d221a1155512b1a', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "CurrentType",
+                  "display_name": "CurrentType",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "CurrentTypeEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "DC",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.630000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_65d9a4f93d611affccba5e3e24910b65', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "SnapshotPeriod",
+                  "display_name": "SnapshotPeriod",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "SnapshotPeriodEnum",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "360ms",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.633000+00:00"
+                }
+              ]
+            },
+            {
+              "node_id": "NodeId(Identifier='P_8c1da3d4a7b1bca51a71452b7945d0eb', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+              "browse_name": "Runtime",
+              "display_name": "Runtime",
+              "node_class": "Object",
+              "data_type": null,
+              "value": null,
+              "timestamp": null,
+              "children": [
+                {
+                  "node_id": "NodeId(Identifier='P_319215b4acff4f3d8b34a04ae432bb0d', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "OnlineState",
+                  "display_name": "OnlineState",
+                  "node_class": "Variable",
+                  "data_type": "Boolean",
+                  "value": true,
+                  "timestamp": "2026-07-20T03:35:53.639000+00:00"
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_ef451d6199229d4662149a3bf9b416eb', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "FaultState",
+                  "display_name": "FaultState",
+                  "node_class": "Variable",
+                  "data_type": "ExtensionObject",
+                  "value": {
+                    "__type__": "EnumValueType",
+                    "Value": 0,
+                    "DisplayName": {
+                      "__type__": "LocalizedText",
+                      "Text": "FaultState",
+                      "Locale": "en-US"
+                    },
+                    "Description": {
+                      "__type__": "LocalizedText",
+                      "Text": "Normal",
+                      "Locale": "en-US"
+                    }
+                  },
+                  "timestamp": "2026-07-20T03:35:53.643000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_f5f180a8a2df359ab406d6c51d6cf1d0', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "TypeMismatch",
+                      "display_name": "TypeMismatch",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "EnumValueType",
+                        "Value": 0,
+                        "DisplayName": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        },
+                        "Description": {
+                          "__type__": "LocalizedText",
+                          "Text": "Normal",
+                          "Locale": "en-US"
+                        }
+                      },
+                      "timestamp": "2026-07-20T03:35:53.646000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_d19f54c0004c905e230f0aa1c0a23212', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "Current",
+                  "display_name": "Current",
+                  "node_class": "Variable",
+                  "data_type": "Float",
+                  "value": 229.0,
+                  "timestamp": "2026-07-20T03:35:53.650000+00:00",
+                  "children": [
+                    {
+                      "node_id": "NodeId(Identifier='P_cab087b64f081de5f8836b36813784df', NamespaceIndex=0, NodeIdType=<NodeIdType.String: 3>)",
+                      "browse_name": "EURange",
+                      "display_name": "EURange",
+                      "node_class": "Variable",
+                      "data_type": "ExtensionObject",
+                      "value": {
+                        "__type__": "Range",
+                        "Low": 0.0,
+                        "High": 600.0
+                      },
+                      "timestamp": "2026-07-20T03:35:53.653000+00:00"
+                    }
+                  ]
+                },
+                {
+                  "node_id": "NodeId(Identifier='P_ed47682ac8f276c2ec3f364b68dbdffd', NamespaceIndex=1, NodeIdType=<NodeIdType.String: 3>)",
+                  "browse_name": "ActionSnapshot",
+                  "display_name": "ActionSnapshot",
+                  "node_class": "Variable",
+                  "data_type": "ByteString",
+                  "value": {
+                    "__type__": "ByteString",
+                    "b64": "AwADAAMAAwADAAMAAwADAAMAAwADAAcALABxAKEAvQDPANkA3gDgAN4A1gC+AKwAtQDEANEA2wDjAOgA7ADuAPAA8QDyAPIA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA9AD0APMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPQA9ADzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wD0APMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPQA9ADzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wD0APMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA8wDzAPMA"
+                  },
+                  "timestamp": "2026-07-20T03:35:53.657000+00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

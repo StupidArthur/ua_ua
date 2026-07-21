@@ -1,0 +1,274 @@
+{
+  "server_url": "opc.tcp://10.10.58.117:18639",
+  "interval_seconds": 5.0,
+  "started_at": "2026-07-20T05:27:54.678956+00:00",
+  "last_updated": "2026-07-20T05:30:54.722670+00:00",
+  "devices": {
+    "SOV1": {
+      "device": "SOV1",
+      "node_count": 10,
+      "change_count": 21,
+      "nodes": [
+        {
+          "path": "SOV1/DeviceClass",
+          "browse_name": "DeviceClass",
+          "data_type": "String"
+        },
+        {
+          "path": "SOV1/AssetId",
+          "browse_name": "AssetId",
+          "data_type": "String"
+        },
+        {
+          "path": "SOV1/Configuration/SnapshotPeriod",
+          "browse_name": "SnapshotPeriod",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Configuration/CurrentType",
+          "browse_name": "CurrentType",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/FaultState",
+          "browse_name": "FaultState",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/FaultState/TypeMismatch",
+          "browse_name": "TypeMismatch",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "data_type": "Float"
+        },
+        {
+          "path": "SOV1/Runtime/Current/EURange",
+          "browse_name": "EURange",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "data_type": "ByteString"
+        },
+        {
+          "path": "SOV1/Runtime/OnlineState",
+          "browse_name": "OnlineState",
+          "data_type": "Boolean"
+        }
+      ],
+      "changes": [
+        {
+          "timestamp": "2026-07-20T05:26:08.609000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 234.0
+        },
+        {
+          "timestamp": "2026-07-20T05:26:13.630000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 234.0,
+          "new_value": 232.0
+        },
+        {
+          "timestamp": "2026-07-20T05:26:18.658000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 232.0,
+          "new_value": 231.0
+        },
+        {
+          "timestamp": "2026-07-20T05:26:18.661000+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAOAB6AKQAvQDMANUA2QDbANwA2gDRALoApwCwAL4AywDVANwA4QDkAOYA6ADpAOoA6gDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAQADAB4AXwCUALMAxgDRANcA2gDcANwA1wDIAK0AqQC3AMUA0ADYAN4A4wDlAOcA6QDpAOoA6gDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T05:26:23.682000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.0,
+          "new_value": 230.0
+        },
+        {
+          "timestamp": "2026-07-20T05:26:28.696000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.0,
+          "new_value": 228.0
+        },
+        {
+          "timestamp": "2026-07-20T05:26:38.725000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.0,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T05:27:08.811000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 234.0
+        },
+        {
+          "timestamp": "2026-07-20T05:27:13.831000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 234.0,
+          "new_value": 232.0
+        },
+        {
+          "timestamp": "2026-07-20T05:27:18.850000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 232.0,
+          "new_value": 231.0
+        },
+        {
+          "timestamp": "2026-07-20T05:27:18.853000+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAQADAB4AXwCUALMAxgDRANcA2gDcANwA1wDIAK0AqQC3AMUA0ADYAN4A4wDlAOcA6QDpAOoA6gDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAEAAQAAAAEAAQACABoAWgCRALIAxQDRANcA2gDcANsA1wDIAK4AqQC3AMUA0ADYAN4A4gDlAOcA6QDpAOoA6gDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T05:27:23.868000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.0,
+          "new_value": 229.0
+        },
+        {
+          "timestamp": "2026-07-20T05:27:33.899000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.0,
+          "new_value": 227.0
+        },
+        {
+          "timestamp": "2026-07-20T05:27:38.915000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.0,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T05:28:09.030000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 235.0
+        },
+        {
+          "timestamp": "2026-07-20T05:28:14.052000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 235.0,
+          "new_value": 233.0
+        },
+        {
+          "timestamp": "2026-07-20T05:28:19.078000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 233.0,
+          "new_value": 231.0
+        },
+        {
+          "timestamp": "2026-07-20T05:28:19.080000+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAEAAQAAAAEAAQACABoAWgCRALIAxQDRANcA2gDcANsA1wDIAK4AqQC3AMUA0ADYAN4A4gDlAOcA6QDpAOoA6gDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AQABAAAAAAAAAAAAAAAAAAAAAAABAAYAMQB0AKEAuwDLANQA2QDbANwA2wDTAL4AqACtALwAyQDTANsA4ADjAOYA6ADpAOoA6gDqAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA6wDrAOsA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T05:28:24.094000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.0,
+          "new_value": 230.0
+        },
+        {
+          "timestamp": "2026-07-20T05:28:29.126000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.0,
+          "new_value": 228.0
+        },
+        {
+          "timestamp": "2026-07-20T05:28:39.174000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.0,
+          "new_value": 0.0
+        }
+      ]
+    }
+  }
+}

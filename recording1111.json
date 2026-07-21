@@ -1,0 +1,3697 @@
+{
+  "server_url": "opc.tcp://10.30.70.77:12345",
+  "interval_seconds": 5.0,
+  "started_at": "2026-07-20T06:42:03.050778+00:00",
+  "last_updated": "2026-07-20T07:16:04.503826+00:00",
+  "devices": {
+    "SOV1": {
+      "device": "SOV1",
+      "node_count": 10,
+      "change_count": 394,
+      "nodes": [
+        {
+          "path": "SOV1/DeviceClass",
+          "browse_name": "DeviceClass",
+          "data_type": "String"
+        },
+        {
+          "path": "SOV1/AssetId",
+          "browse_name": "AssetId",
+          "data_type": "String"
+        },
+        {
+          "path": "SOV1/Configuration/SnapshotPeriod",
+          "browse_name": "SnapshotPeriod",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Configuration/CurrentType",
+          "browse_name": "CurrentType",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/FaultState",
+          "browse_name": "FaultState",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/TypeMismatch",
+          "browse_name": "TypeMismatch",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "data_type": "Float"
+        },
+        {
+          "path": "SOV1/Runtime/EURange",
+          "browse_name": "EURange",
+          "data_type": "ExtensionObject"
+        },
+        {
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "data_type": "ByteString"
+        },
+        {
+          "path": "SOV1/Runtime/OnlineState",
+          "browse_name": "OnlineState",
+          "data_type": "Boolean"
+        }
+      ],
+      "changes": [
+        {
+          "timestamp": "2026-07-20T06:42:11.788861+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.8000030517578,
+          "new_value": 223.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:42:16.858605+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.39999389648438,
+          "new_value": 222.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:42:21.886557+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.6999969482422,
+          "new_value": 222.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:42:26.888355+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.10000610351562,
+          "new_value": 221.0
+        },
+        {
+          "timestamp": "2026-07-20T06:42:31.913981+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.0,
+          "new_value": 220.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:42:36.967627+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.60000610351562,
+          "new_value": 220.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:42:42.006424+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.3000030517578,
+          "new_value": 220.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:42:47.069681+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.1999969482422,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:42:52.091003+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 219.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:42:57.143899+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.1999969482422,
+          "new_value": 218.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:43:02.166833+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.6999969482422,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:43:07.206625+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:43:12.284984+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.89999389648438,
+          "new_value": 218.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:43:17.338401+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.6999969482422,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:43:22.343301+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:43:27.370829+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 218.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:43:32.440158+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.10000610351562,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:43:37.438535+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:43:47.511046+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 230.0
+        },
+        {
+          "timestamp": "2026-07-20T06:43:52.551143+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.0,
+          "new_value": 229.0
+        },
+        {
+          "timestamp": "2026-07-20T06:43:57.563492+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.0,
+          "new_value": 228.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:43:53.563522+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAWwCOAKwAvwDJAM8A0gDUANQAzwDBAKcAowCwAL4AyADQANYA2wDdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK4AwADLANEA1ADWANYA0QDCAKgApACyAL8AygDSANgA3QDfAOEA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:44:02.613206+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.1999969482422,
+          "new_value": 227.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:44:07.680390+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.60000610351562,
+          "new_value": 226.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:44:12.752626+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.89999389648438,
+          "new_value": 225.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:44:17.797962+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.89999389648438,
+          "new_value": 224.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:44:22.841751+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.8000030517578,
+          "new_value": 223.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:44:27.877412+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.8000030517578,
+          "new_value": 222.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:44:32.891292+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.6999969482422,
+          "new_value": 221.5
+        },
+        {
+          "timestamp": "2026-07-20T06:44:37.890190+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.5,
+          "new_value": 221.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:44:42.934094+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.3000030517578,
+          "new_value": 221.0
+        },
+        {
+          "timestamp": "2026-07-20T06:44:53.059904+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.0,
+          "new_value": 220.5
+        },
+        {
+          "timestamp": "2026-07-20T06:44:57.121922+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.5,
+          "new_value": 220.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:45:02.176730+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.39999389648438,
+          "new_value": 220.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:45:07.227618+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.1999969482422,
+          "new_value": 220.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:45:12.285355+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.3000030517578,
+          "new_value": 220.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:45:17.351553+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.1999969482422,
+          "new_value": 220.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:45:22.408782+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.3000030517578,
+          "new_value": 219.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:45:27.458945+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.8000030517578,
+          "new_value": 219.0
+        },
+        {
+          "timestamp": "2026-07-20T06:45:32.506563+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.0,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:45:37.582865+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 218.0
+        },
+        {
+          "timestamp": "2026-07-20T06:45:42.638710+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.0,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:45:47.639640+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:45:57.749030+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 234.0
+        },
+        {
+          "timestamp": "2026-07-20T06:46:02.790878+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 234.0,
+          "new_value": 232.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:46:07.832810+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 232.3000030517578,
+          "new_value": 230.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:46:03.802173+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK4AwADLANEA1ADWANYA0QDCAKgApACyAL8AygDSANgA3QDfAOEA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCSALAAwwDOANQA1wDZANkA1ADFAKoApgC0AMIAzQDVANsA4ADhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:46:12.878042+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.6999969482422,
+          "new_value": 229.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:46:17.919106+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.89999389648438,
+          "new_value": 228.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:46:22.969480+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.6999969482422,
+          "new_value": 227.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:46:28.041853+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.89999389648438,
+          "new_value": 226.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:46:33.114687+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.89999389648438,
+          "new_value": 225.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:46:38.191782+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.8000030517578,
+          "new_value": 224.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:46:43.254893+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.39999389648438,
+          "new_value": 223.5
+        },
+        {
+          "timestamp": "2026-07-20T06:46:48.308846+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.5,
+          "new_value": 223.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:46:53.369045+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.1999969482422,
+          "new_value": 222.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:46:58.408999+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.1999969482422,
+          "new_value": 221.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:47:02.459934+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.60000610351562,
+          "new_value": 221.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:47:07.517247+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.1999969482422,
+          "new_value": 221.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:47:12.553556+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.10000610351562,
+          "new_value": 221.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:47:17.590793+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.39999389648438,
+          "new_value": 221.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:47:22.645900+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.10000610351562,
+          "new_value": 220.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:47:27.695030+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.8000030517578,
+          "new_value": 220.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:47:32.755393+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.60000610351562,
+          "new_value": 220.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:47:37.837183+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.1999969482422,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T06:47:42.907910+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 219.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:47:47.921005+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.3000030517578,
+          "new_value": 218.5
+        },
+        {
+          "timestamp": "2026-07-20T06:47:52.993150+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.5,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:47:58.065994+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:48:08.136470+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 228.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:48:13.206346+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.60000610351562,
+          "new_value": 227.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:48:13.206346+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCSALAAwwDOANQA1wDZANkA1ADFAKoApgC0AMIAzQDVANsA4ADhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAWwCPAKwAvwDJAM8A0gDUANQAzwDBAKcAowCwAL4AyQDQANYA2wDdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:48:18.274750+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.10000610351562,
+          "new_value": 226.0
+        },
+        {
+          "timestamp": "2026-07-20T06:48:23.336126+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.0,
+          "new_value": 225.5
+        },
+        {
+          "timestamp": "2026-07-20T06:48:28.390833+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.5,
+          "new_value": 225.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:48:33.405014+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.3000030517578,
+          "new_value": 224.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:48:38.455998+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.39999389648438,
+          "new_value": 224.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:48:43.525972+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.1999969482422,
+          "new_value": 223.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:48:48.577306+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.60000610351562,
+          "new_value": 223.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:48:53.637709+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.10000610351562,
+          "new_value": 222.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:48:58.709078+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.39999389648438,
+          "new_value": 222.0
+        },
+        {
+          "timestamp": "2026-07-20T06:49:03.746341+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.0,
+          "new_value": 221.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:49:08.798872+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.6999969482422,
+          "new_value": 221.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:49:13.853396+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.1999969482422,
+          "new_value": 221.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:49:18.933117+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.60000610351562,
+          "new_value": 220.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:49:23.996601+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.8000030517578,
+          "new_value": 220.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:49:29.070537+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.39999389648438,
+          "new_value": 220.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:49:34.139083+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.10000610351562,
+          "new_value": 219.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:49:39.167843+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.60000610351562,
+          "new_value": 219.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:49:43.211384+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.8000030517578,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T06:49:48.263817+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 220.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:49:53.275587+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.10000610351562,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T06:49:58.349904+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 220.5
+        },
+        {
+          "timestamp": "2026-07-20T06:50:03.374057+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.5,
+          "new_value": 219.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:50:08.430337+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.8000030517578,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:50:18.533542+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 230.0
+        },
+        {
+          "timestamp": "2026-07-20T06:50:23.591075+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.0,
+          "new_value": 228.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:50:23.591075+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAWwCPAKwAvwDJAM8A0gDUANQAzwDBAKcAowCwAL4AyQDQANYA2wDdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AwADLANAA0wDVANUA0ADCAKgApACxAL8AygDRANcA3ADeAOAA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:50:28.609689+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.39999389648438,
+          "new_value": 227.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:50:33.658714+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.8000030517578,
+          "new_value": 226.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:50:38.673241+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.1999969482422,
+          "new_value": 224.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:50:43.741278+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.8000030517578,
+          "new_value": 224.0
+        },
+        {
+          "timestamp": "2026-07-20T06:50:48.794881+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.0,
+          "new_value": 223.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:50:53.830622+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.1999969482422,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:50:58.880876+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.5
+        },
+        {
+          "timestamp": "2026-07-20T06:51:03.939123+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.5,
+          "new_value": 221.0
+        },
+        {
+          "timestamp": "2026-07-20T06:51:08.996104+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.0,
+          "new_value": 220.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:51:14.061950+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.8000030517578,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:51:19.133640+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 219.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:51:24.183198+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.3000030517578,
+          "new_value": 219.0
+        },
+        {
+          "timestamp": "2026-07-20T06:51:29.259130+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.0,
+          "new_value": 218.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:51:34.318152+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.60000610351562,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:51:49.486799+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 217.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:51:54.505795+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.6999969482422,
+          "new_value": 217.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:51:59.555031+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.8000030517578,
+          "new_value": 217.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:52:04.629532+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.3000030517578,
+          "new_value": 216.5
+        },
+        {
+          "timestamp": "2026-07-20T06:52:08.674654+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.5,
+          "new_value": 216.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:52:13.720290+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.60000610351562,
+          "new_value": 216.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:52:18.754847+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.6999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:52:28.879767+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 229.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:52:33.912642+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.8000030517578,
+          "new_value": 228.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:52:38.970312+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.3000030517578,
+          "new_value": 226.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:52:44.000753+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.6999969482422,
+          "new_value": 225.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:52:49.043734+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.89999389648438,
+          "new_value": 225.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:52:54.097872+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.3000030517578,
+          "new_value": 224.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:52:59.163232+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.60000610351562,
+          "new_value": 224.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:53:04.200320+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.10000610351562,
+          "new_value": 223.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:53:09.252130+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.1999969482422,
+          "new_value": 222.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:53:14.312889+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.8000030517578,
+          "new_value": 222.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:53:19.369882+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.3000030517578,
+          "new_value": 222.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:53:24.422856+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.10000610351562,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:53:29.493839+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:53:34.549758+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.3000030517578,
+          "new_value": 220.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:53:39.620980+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.1999969482422,
+          "new_value": 219.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:53:44.693406+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.6999969482422,
+          "new_value": 219.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:53:49.718604+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.39999389648438,
+          "new_value": 218.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:53:54.766104+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.3000030517578,
+          "new_value": 217.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:53:59.831530+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.6999969482422,
+          "new_value": 217.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:54:04.888130+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.8000030517578,
+          "new_value": 218.0
+        },
+        {
+          "timestamp": "2026-07-20T06:54:09.942591+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.0,
+          "new_value": 217.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:54:14.989741+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.89999389648438,
+          "new_value": 217.5
+        },
+        {
+          "timestamp": "2026-07-20T06:54:20.013714+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.5,
+          "new_value": 217.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:54:25.065990+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.3000030517578,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:54:34.205771+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 235.5
+        },
+        {
+          "timestamp": "2026-07-20T06:54:39.253858+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 235.5,
+          "new_value": 234.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:54:44.291783+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 234.10000610351562,
+          "new_value": 233.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:54:43.274521+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AwADLANAA0wDVANUA0ADCAKgApACxAL8AygDRANcA3ADeAOAA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXgCSALEAxADPANUA2ADaANoA1QDGAKsApwC1AMMAzgDWANwA4QDjAOUA5wDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:54:49.348881+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 233.10000610351562,
+          "new_value": 231.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:54:54.433619+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.60000610351562,
+          "new_value": 230.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:54:59.478564+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.3000030517578,
+          "new_value": 229.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:55:04.552043+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.3000030517578,
+          "new_value": 228.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:55:09.617403+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.39999389648438,
+          "new_value": 227.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:55:14.671481+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.60000610351562,
+          "new_value": 226.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:55:19.722710+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.39999389648438,
+          "new_value": 225.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:55:24.776445+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.3000030517578,
+          "new_value": 224.5
+        },
+        {
+          "timestamp": "2026-07-20T06:55:29.834805+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.5,
+          "new_value": 223.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:55:34.870714+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.3000030517578,
+          "new_value": 222.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:55:39.938751+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.3000030517578,
+          "new_value": 222.5
+        },
+        {
+          "timestamp": "2026-07-20T06:55:44.958127+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.5,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:55:49.981831+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:55:55.004488+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.6999969482422,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:56:00.064861+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 220.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:56:10.136047+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.89999389648438,
+          "new_value": 221.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:56:15.211829+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.1999969482422,
+          "new_value": 220.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:56:20.265217+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.3000030517578,
+          "new_value": 219.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:56:25.307757+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.8000030517578,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T06:56:30.378362+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 219.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:56:35.429298+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.6999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:56:45.531979+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 227.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:56:50.568444+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.1999969482422,
+          "new_value": 226.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:56:54.640717+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.1999969482422,
+          "new_value": 225.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:56:53.621940+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXgCSALEAxADPANUA2ADaANoA1QDGAKsApwC1AMMAzgDWANwA4QDjAOUA5wDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA6QDpAOkA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAWwCOAKsAvgDIAM4A0QDTANMAzgDAAKYAogCvAL0AxwDPANUA2QDbAN0A3wDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:56:59.681294+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.6999969482422,
+          "new_value": 224.0
+        },
+        {
+          "timestamp": "2026-07-20T06:57:04.746418+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.0,
+          "new_value": 223.0
+        },
+        {
+          "timestamp": "2026-07-20T06:57:14.847300+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.0,
+          "new_value": 222.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:57:19.886702+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.39999389648438,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:57:24.924885+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.5
+        },
+        {
+          "timestamp": "2026-07-20T06:57:29.968431+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.5,
+          "new_value": 220.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:57:35.041890+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.8000030517578,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T06:57:45.135991+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 220.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:57:50.179199+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.6999969482422,
+          "new_value": 220.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:57:55.218560+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.10000610351562,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:58:00.252529+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 219.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:58:10.377076+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.39999389648438,
+          "new_value": 218.0
+        },
+        {
+          "timestamp": "2026-07-20T06:58:15.414280+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.0,
+          "new_value": 217.5
+        },
+        {
+          "timestamp": "2026-07-20T06:58:20.464461+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.5,
+          "new_value": 217.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:58:25.530379+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.3000030517578,
+          "new_value": 216.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:58:30.519520+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.6999969482422,
+          "new_value": 216.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:58:35.556161+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.60000610351562,
+          "new_value": 216.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:58:40.611263+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.39999389648438,
+          "new_value": 216.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:58:45.665115+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.1999969482422,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T06:58:55.775424+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 228.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:59:00.826133+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.1999969482422,
+          "new_value": 227.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:59:05.886657+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.6999969482422,
+          "new_value": 227.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:59:03.862384+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAWwCOAKsAvgDIAM4A0QDTANMAzgDAAKYAogCvAL0AxwDPANUA2QDbAN0A3wDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA4QDhAOEA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AvwDKANAA0wDVANUA0ADBAKcAowCxAL4AyQDRANcA2wDdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T06:59:10.954060+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.3000030517578,
+          "new_value": 225.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:59:15.998105+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.8000030517578,
+          "new_value": 225.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:59:20.049350+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.3000030517578,
+          "new_value": 224.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:59:25.117442+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.39999389648438,
+          "new_value": 223.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T06:59:30.166482+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.60000610351562,
+          "new_value": 223.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T06:59:35.224084+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.1999969482422,
+          "new_value": 222.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T06:59:40.275752+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.8000030517578,
+          "new_value": 222.5
+        },
+        {
+          "timestamp": "2026-07-20T06:59:45.338185+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.5,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T06:59:50.411036+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.5
+        },
+        {
+          "timestamp": "2026-07-20T07:00:00.524236+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.5,
+          "new_value": 221.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:00:05.560816+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.10000610351562,
+          "new_value": 220.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:00:10.588944+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.39999389648438,
+          "new_value": 220.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:00:15.638069+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.60000610351562,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:00:20.718205+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T07:00:25.759505+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 219.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:00:30.839431+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.6999969482422,
+          "new_value": 219.5
+        },
+        {
+          "timestamp": "2026-07-20T07:00:35.910378+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.5,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:00:40.949689+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 219.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:00:46.002079+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.10000610351562,
+          "new_value": 219.0
+        },
+        {
+          "timestamp": "2026-07-20T07:00:51.034956+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.0,
+          "new_value": 218.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:00:56.097073+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.60000610351562,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:01:06.172635+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 233.0
+        },
+        {
+          "timestamp": "2026-07-20T07:01:11.221995+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 233.0,
+          "new_value": 230.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:01:16.252890+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.89999389648438,
+          "new_value": 229.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:01:14.232137+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AvwDKANAA0wDVANUA0ADBAKcAowCxAL4AyQDRANcA2wDdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK8AwQDMANIA1QDXANcA0gDDAKkApQCyAMAAywDTANkA3QDfAOEA4wDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:01:21.322172+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.1999969482422,
+          "new_value": 228.0
+        },
+        {
+          "timestamp": "2026-07-20T07:01:26.390957+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.0,
+          "new_value": 226.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:01:31.415560+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.1999969482422,
+          "new_value": 225.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:01:36.472371+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.39999389648438,
+          "new_value": 225.0
+        },
+        {
+          "timestamp": "2026-07-20T07:01:41.498032+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.0,
+          "new_value": 224.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:01:46.562640+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.1999969482422,
+          "new_value": 223.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:01:51.565050+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.60000610351562,
+          "new_value": 223.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:01:56.598395+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.3000030517578,
+          "new_value": 223.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:02:00.629318+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.10000610351562,
+          "new_value": 222.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:02:05.684035+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.39999389648438,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:02:10.737627+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 220.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:02:15.802884+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.39999389648438,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T07:02:20.873714+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:02:25.916422+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 219.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:02:30.972545+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.60000610351562,
+          "new_value": 219.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:02:36.008133+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.10000610351562,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:02:41.061268+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:02:46.114187+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.60000610351562,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:02:51.183302+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 218.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:02:56.257032+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.10000610351562,
+          "new_value": 218.5
+        },
+        {
+          "timestamp": "2026-07-20T07:03:01.320963+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.5,
+          "new_value": 218.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:03:06.372111+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.10000610351562,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:03:16.466839+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 233.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:03:21.529528+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 233.60000610351562,
+          "new_value": 231.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:03:26.587816+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.89999389648438,
+          "new_value": 230.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:03:23.542833+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACQAK8AwQDMANIA1QDXANcA0gDDAKkApQCyAMAAywDTANkA3QDfAOEA4wDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA5QDlAOUA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCRALAAwwDNANMA1gDYANgA0wDFAKoApgC0AMIAzADUANoA3wDhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:03:31.638080+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.8000030517578,
+          "new_value": 229.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:03:36.710165+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.1999969482422,
+          "new_value": 228.0
+        },
+        {
+          "timestamp": "2026-07-20T07:03:41.756219+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.0,
+          "new_value": 227.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:03:46.841154+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.1999969482422,
+          "new_value": 226.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:03:51.903672+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.3000030517578,
+          "new_value": 225.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:03:56.939854+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.1999969482422,
+          "new_value": 224.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:04:01.982817+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.39999389648438,
+          "new_value": 223.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:04:07.032073+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.39999389648438,
+          "new_value": 222.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:04:12.050548+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.3000030517578,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:04:16.113837+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.5
+        },
+        {
+          "timestamp": "2026-07-20T07:04:21.164749+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.5,
+          "new_value": 220.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:04:26.209183+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.1999969482422,
+          "new_value": 219.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:04:31.265087+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.39999389648438,
+          "new_value": 219.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:04:36.317988+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.10000610351562,
+          "new_value": 219.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:04:41.370009+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.1999969482422,
+          "new_value": 218.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:04:46.438289+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.89999389648438,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:04:51.485323+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:04:56.519372+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.60000610351562,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:05:01.591394+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 219.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:05:06.632086+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.1999969482422,
+          "new_value": 219.0
+        },
+        {
+          "timestamp": "2026-07-20T07:05:11.685256+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.0,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:05:16.735604+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:05:26.818103+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 234.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:05:31.892594+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 234.39999389648438,
+          "new_value": 232.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:05:36.891636+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 232.1999969482422,
+          "new_value": 230.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:05:33.892400+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCRALAAwwDNANMA1gDYANgA0wDFAKoApgC0AMIAzADUANoA3wDhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCRALAAwgDNANMA1gDYANgA0wDEAKoApgC0AMEAzADUANoA3wDhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:05:41.939285+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.8000030517578,
+          "new_value": 229.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:05:47.010251+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.89999389648438,
+          "new_value": 228.5
+        },
+        {
+          "timestamp": "2026-07-20T07:05:52.066954+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.5,
+          "new_value": 227.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:05:57.127222+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.60000610351562,
+          "new_value": 227.0
+        },
+        {
+          "timestamp": "2026-07-20T07:06:02.175889+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.0,
+          "new_value": 225.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:06:07.229836+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.89999389648438,
+          "new_value": 224.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:06:12.289571+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.6999969482422,
+          "new_value": 224.5
+        },
+        {
+          "timestamp": "2026-07-20T07:06:17.373390+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.5,
+          "new_value": 223.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:06:22.431088+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.10000610351562,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:06:26.486350+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:06:31.543502+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.1999969482422,
+          "new_value": 220.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:06:36.625587+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.60000610351562,
+          "new_value": 220.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:06:41.691689+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.3000030517578,
+          "new_value": 219.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:06:46.777247+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.60000610351562,
+          "new_value": 219.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:06:51.848535+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.3000030517578,
+          "new_value": 219.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:06:56.907778+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.39999389648438,
+          "new_value": 219.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:07:01.976591+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.60000610351562,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:07:07.053475+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 218.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:07:12.131854+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.6999969482422,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:07:17.175452+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:07:22.215387+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 217.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:07:27.277276+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.8000030517578,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:07:37.388477+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 233.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:07:42.462403+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 233.1999969482422,
+          "new_value": 232.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:07:47.532538+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 232.3000030517578,
+          "new_value": 230.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:07:44.489055+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCRALAAwgDNANMA1gDYANgA0wDEAKoApgC0AMEAzADUANoA3wDhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCRALAAwwDOANMA1gDYANgA0wDFAKoApgC0AMIAzQDUANoA3wDhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:07:52.583427+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.89999389648438,
+          "new_value": 229.5
+        },
+        {
+          "timestamp": "2026-07-20T07:07:57.627463+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.5,
+          "new_value": 228.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:08:02.689167+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.60000610351562,
+          "new_value": 228.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:08:07.762987+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.3000030517578,
+          "new_value": 226.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:08:12.816754+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.6999969482422,
+          "new_value": 226.0
+        },
+        {
+          "timestamp": "2026-07-20T07:08:17.886109+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.0,
+          "new_value": 225.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:08:22.887405+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.10000610351562,
+          "new_value": 224.5
+        },
+        {
+          "timestamp": "2026-07-20T07:08:27.955511+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.5,
+          "new_value": 223.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:08:31.998000+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.8000030517578,
+          "new_value": 223.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:08:37.052712+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.39999389648438,
+          "new_value": 222.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:08:42.110941+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.89999389648438,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:08:47.134172+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:08:57.247688+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.39999389648438,
+          "new_value": 220.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:09:02.303492+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.89999389648438,
+          "new_value": 220.0
+        },
+        {
+          "timestamp": "2026-07-20T07:09:07.351755+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.0,
+          "new_value": 219.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:09:12.428343+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.10000610351562,
+          "new_value": 218.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:09:17.472489+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.6999969482422,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:09:22.525955+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 217.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:09:27.590279+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.8000030517578,
+          "new_value": 217.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:09:32.623723+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.3000030517578,
+          "new_value": 217.0
+        },
+        {
+          "timestamp": "2026-07-20T07:09:37.650901+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.0,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:09:47.796448+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 231.5
+        },
+        {
+          "timestamp": "2026-07-20T07:09:52.835765+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 231.5,
+          "new_value": 230.5
+        },
+        {
+          "timestamp": "2026-07-20T07:09:57.895142+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 230.5,
+          "new_value": 229.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:09:53.851531+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCRALAAwwDOANMA1gDYANgA0wDFAKoApgC0AMIAzQDUANoA3wDhAOMA5QDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA5wDnAOcA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCQAK8AwQDMANIA1QDXANcA0gDDAKkApQCzAMAAywDTANkA3gDgAOIA5ADmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:10:02.969351+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.3000030517578,
+          "new_value": 228.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:10:08.029427+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.6999969482422,
+          "new_value": 227.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:10:13.075169+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.10000610351562,
+          "new_value": 226.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:10:18.128973+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.10000610351562,
+          "new_value": 225.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:10:23.138098+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.60000610351562,
+          "new_value": 225.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:10:28.168962+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.1999969482422,
+          "new_value": 224.5
+        },
+        {
+          "timestamp": "2026-07-20T07:10:33.232885+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.5,
+          "new_value": 223.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:10:38.304852+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.89999389648438,
+          "new_value": 223.5
+        },
+        {
+          "timestamp": "2026-07-20T07:10:43.374127+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.5,
+          "new_value": 222.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:10:48.445849+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.6999969482422,
+          "new_value": 222.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:10:52.500274+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.10000610351562,
+          "new_value": 221.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:10:57.553406+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.39999389648438,
+          "new_value": 221.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:11:02.632495+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.10000610351562,
+          "new_value": 220.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:11:07.673462+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.6999969482422,
+          "new_value": 220.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:11:12.702227+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.10000610351562,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:11:17.735980+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 220.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:11:22.768782+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.10000610351562,
+          "new_value": 219.5
+        },
+        {
+          "timestamp": "2026-07-20T07:11:27.811238+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.5,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:11:32.874342+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:11:42.992206+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.60000610351562,
+          "new_value": 218.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:11:48.063785+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.39999389648438,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:11:58.157149+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 228.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:12:03.208118+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.89999389648438,
+          "new_value": 227.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:12:08.215182+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.89999389648438,
+          "new_value": 226.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:12:04.220365+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXQCQAK8AwQDMANIA1QDXANcA0gDDAKkApQCzAMAAywDTANkA3gDgAOIA5ADmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA5gDmAOYA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AvwDKANAA0wDVANUA0ADBAKcAowCxAL4AyQDRANcA3ADdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:12:13.287803+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.8000030517578,
+          "new_value": 225.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:12:18.333312+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.3000030517578,
+          "new_value": 224.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:12:23.364737+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.10000610351562,
+          "new_value": 222.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:12:28.399330+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.89999389648438,
+          "new_value": 222.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:12:33.469778+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.39999389648438,
+          "new_value": 221.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:12:38.504484+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.6999969482422,
+          "new_value": 220.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:12:43.580225+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.89999389648438,
+          "new_value": 220.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:12:48.617672+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.10000610351562,
+          "new_value": 219.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:12:53.689552+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.89999389648438,
+          "new_value": 218.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:12:58.725949+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.6999969482422,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:13:03.787339+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.5
+        },
+        {
+          "timestamp": "2026-07-20T07:13:08.840708+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.5,
+          "new_value": 218.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:13:13.855597+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.1999969482422,
+          "new_value": 217.6999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:13:18.899337+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.6999969482422,
+          "new_value": 217.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:13:23.970424+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.8000030517578,
+          "new_value": 218.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:13:28.999983+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.10000610351562,
+          "new_value": 217.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:13:34.040479+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.60000610351562,
+          "new_value": 217.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:13:38.090559+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.39999389648438,
+          "new_value": 217.5
+        },
+        {
+          "timestamp": "2026-07-20T07:13:43.134378+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.5,
+          "new_value": 217.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:13:48.183268+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.39999389648438,
+          "new_value": 217.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:13:53.243131+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.10000610351562,
+          "new_value": 217.0
+        },
+        {
+          "timestamp": "2026-07-20T07:13:58.287463+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.0,
+          "new_value": 0.0
+        },
+        {
+          "timestamp": "2026-07-20T07:14:08.371138+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 0.0,
+          "new_value": 229.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:14:13.427014+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 229.3000030517578,
+          "new_value": 228.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:14:18.450590+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 228.39999389648438,
+          "new_value": 227.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:14:14.440157+00:00",
+          "path": "SOV1/Runtime/ActionSnapshot",
+          "browse_name": "ActionSnapshot",
+          "display_name": "ActionSnapshot",
+          "data_type": "ByteString",
+          "old_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AvwDKANAA0wDVANUA0ADBAKcAowCxAL4AyQDRANcA3ADdAN8A4QDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA4wDjAOMA"
+          },
+          "new_value": {
+            "__type__": "ByteString",
+            "b64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AXACPAK0AwADLANAA0wDVANUA0ADCAKgApACxAL8AygDRANcA3ADeAOAA4gDkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA5ADkAOQA"
+          }
+        },
+        {
+          "timestamp": "2026-07-20T07:14:23.507379+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.89999389648438,
+          "new_value": 227.0
+        },
+        {
+          "timestamp": "2026-07-20T07:14:28.558528+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 227.0,
+          "new_value": 226.1999969482422
+        },
+        {
+          "timestamp": "2026-07-20T07:14:33.612562+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 226.1999969482422,
+          "new_value": 225.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:14:43.761606+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 225.8000030517578,
+          "new_value": 224.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:14:48.809437+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.89999389648438,
+          "new_value": 224.0
+        },
+        {
+          "timestamp": "2026-07-20T07:14:53.841594+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 224.0,
+          "new_value": 223.3000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:14:58.916816+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 223.3000030517578,
+          "new_value": 222.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:15:03.961984+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 222.8000030517578,
+          "new_value": 221.89999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:15:09.018330+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.89999389648438,
+          "new_value": 221.0
+        },
+        {
+          "timestamp": "2026-07-20T07:15:14.052886+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 221.0,
+          "new_value": 220.5
+        },
+        {
+          "timestamp": "2026-07-20T07:15:19.111591+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 220.5,
+          "new_value": 219.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:15:24.174445+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.60000610351562,
+          "new_value": 219.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:15:29.222175+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.39999389648438,
+          "new_value": 219.0
+        },
+        {
+          "timestamp": "2026-07-20T07:15:34.279615+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 219.0,
+          "new_value": 218.8000030517578
+        },
+        {
+          "timestamp": "2026-07-20T07:15:39.326776+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.8000030517578,
+          "new_value": 218.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:15:44.367438+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 218.10000610351562,
+          "new_value": 217.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:15:49.443875+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.39999389648438,
+          "new_value": 217.10000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:15:53.500908+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 217.10000610351562,
+          "new_value": 216.39999389648438
+        },
+        {
+          "timestamp": "2026-07-20T07:15:58.545668+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.39999389648438,
+          "new_value": 216.60000610351562
+        },
+        {
+          "timestamp": "2026-07-20T07:16:03.578013+00:00",
+          "path": "SOV1/Runtime/Current",
+          "browse_name": "Current",
+          "display_name": "Current",
+          "data_type": "Float",
+          "old_value": 216.60000610351562,
+          "new_value": 215.8000030517578
+        }
+      ]
+    }
+  }
+}

@@ -4,3 +4,5 @@ __pycache__/
 build_plan_*.json
 verification_report.json
 verification_report.md
+phase1_*.log
+phase1_*.err

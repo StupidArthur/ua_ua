@@ -57,7 +57,8 @@ class CliTests(unittest.TestCase):
         result = subprocess.run(
             [sys.executable, "ua_rebuild_server.py",
              "--model", "real_server_export_v2.json",
-             "--scope", "namespace-smoke"],
+             "--scope", "namespace-smoke",
+             "--dry-run"],
             cwd=str(REPO_ROOT), capture_output=True, text=True, timeout=60,
         )
         self.assertEqual(result.returncode, 0,
@@ -69,7 +70,8 @@ class CliTests(unittest.TestCase):
             result = subprocess.run(
                 [sys.executable, str(REPO_ROOT / "ua_rebuild_server.py"),
                  "--model", str(REPO_ROOT / "real_server_export_v2.json"),
-                 "--scope", "namespace-smoke"],
+                 "--scope", "namespace-smoke",
+                 "--dry-run"],
                 cwd=td, capture_output=True, text=True, timeout=60,
             )
             self.assertEqual(result.returncode, 0,

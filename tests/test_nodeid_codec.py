@@ -5,10 +5,13 @@ from __future__ import annotations
 import sys
 import unittest
 import uuid
+from pathlib import Path
 
 from asyncua import ua
 
-sys.path.insert(0, r"F:\github\ua_ua")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from ua_rebuild.nodeid_codec import decode_node_id, _infer_type_from_text  # noqa: E402
 

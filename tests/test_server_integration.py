@@ -1,14 +1,18 @@
-"""Smoke test that ensures all expected files exist and basic CLI runs."""
+"""Integration smoke tests.
+
+These tests run the rebuild CLI and verify file layout.  They use
+`Path(__file__).resolve().parents[1]` so they work regardless of the
+caller's working directory.
+"""
 
 from __future__ import annotations
 
-import json
 import subprocess
 import sys
 import unittest
 from pathlib import Path
 
-REPO_ROOT = Path(r"F:\github\ua_ua")
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 class FileLayoutTests(unittest.TestCase):
@@ -20,6 +24,7 @@ class FileLayoutTests(unittest.TestCase):
             "ua_rebuild_server.py",
             "ua_verify_server.py",
             "requirements-rebuild.txt",
+            ".gitignore",
             "ua_rebuild/__init__.py",
             "ua_rebuild/config.py",
             "ua_rebuild/model.py",
@@ -48,7 +53,7 @@ class FileLayoutTests(unittest.TestCase):
 
 
 class CliTests(unittest.TestCase):
-    def test_dry_run_exits_zero(self):
+    def test_dry_run_exits_zero_from_repo_root(self):
         result = subprocess.run(
             [sys.executable, "ua_rebuild_server.py",
              "--model", "real_server_export_v2.json",
@@ -57,6 +62,18 @@ class CliTests(unittest.TestCase):
         )
         self.assertEqual(result.returncode, 0,
                          msg=f"stdout={result.stdout}\nstderr={result.stderr}")
+
+    def test_dry_run_exits_zero_from_temp_dir(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as td:
+            result = subprocess.run(
+                [sys.executable, str(REPO_ROOT / "ua_rebuild_server.py"),
+                 "--model", str(REPO_ROOT / "real_server_export_v2.json"),
+                 "--scope", "namespace-smoke"],
+                cwd=td, capture_output=True, text=True, timeout=60,
+            )
+            self.assertEqual(result.returncode, 0,
+                             msg=f"stdout={result.stdout}\nstderr={result.stderr}")
 
 
 if __name__ == "__main__":

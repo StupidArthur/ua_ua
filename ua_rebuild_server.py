@@ -49,7 +49,7 @@ def main() -> int:
     model = load_export(args.model)
     log.info("[MODEL] schema_version=%s nodes=%d types=%d refs=%d",
              model.schema_version, len(model.nodes_by_text),
-             len(model.types_by_text), len(model.references))
+             len(model.types_by_text), len(model.raw_references))
 
     log.info("[VALIDATE] checking export")
     res = validate_export(model)

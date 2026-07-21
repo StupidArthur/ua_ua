@@ -8,10 +8,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, r"F:\github\ua_ua")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from ua_rebuild.model_loader import load_export  # noqa: E402
-from ua_rebuild.model_validator import validate_export, _check_type_inheritance_cycles  # noqa: E402
+from ua_rebuild.model_validator import validate_export  # noqa: E402
 
 
 class ValidatorTests(unittest.TestCase):
@@ -132,6 +134,15 @@ class ValidatorTests(unittest.TestCase):
         res = validate_export(model)
         self.assertFalse(res.fatal_or_ok())
         self.assertTrue(any("duplicate reference" in f for f in res.fatal))
+
+    def test_raw_duplicate_node_id_is_fatal(self):
+        dup = dict(self.export["nodes"][1])
+        self.export["nodes"].append(dup)
+        self.path.write_text(json.dumps(self.export, ensure_ascii=False), encoding="utf-8")
+        model = load_export(self.path)
+        res = validate_export(model)
+        self.assertFalse(res.fatal_or_ok())
+        self.assertTrue(any("duplicate node_id" in f for f in res.fatal))
 
 
 if __name__ == "__main__":
